@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tmp/aggregation" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tmp/class" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tmp/correlated-subq-advanced" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tmp/correlated-subqueries" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tmp/customarray" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tmp/entity-framework-shop-reports" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tmp/event" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tmp/extension" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tmp/function" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tmp/inheritance" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tmp/inner-join" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tmp/interface" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tmp/join-with-grouping" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tmp/linq" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tmp/matrix" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tmp/outer-join" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tmp/simple-aggregation" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tmp/simple-select" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tmp/sqlcreatetable" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tmp/sqldatainsert" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tmp/subqueries" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tmp/validatename" vcs="Git" />
+  </component>
+</project>

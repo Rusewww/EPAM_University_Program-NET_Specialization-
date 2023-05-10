@@ -19,3 +19,20 @@
 | LINQ                    | 100  |
 | LINQ (Intermediate)     | 100  |
 | LINQ (Advanced)         | 100  |
+
+<h1>Practical Assignments for Data Processing:</h1>
+
+| Task                                     | Mark |
+|:----------------------------------------:|:----:|
+| Create Tables                            | 78   |
+| Insert data                              | 72   |
+| Simple select                            | 100  |
+| Simple aggregation                       | 70   |
+| Simple grouping                          | 71   |
+| Inner join                               | 90   |
+| Join with grouping                       | 64   |
+| Outer join                               | 68   |
+| Subqueries                               | 70   |
+| Correlated Subqueries                    | 71   |
+| Correlated Subqueries (Advanced)         | 64   |
+| Shop Reports (Entity Framework) - .NET 6 | 97   |
