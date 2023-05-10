@@ -1,0 +1,1 @@
+﻿SELECT AVG(price) AS price_average FROM price_list;
