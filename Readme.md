@@ -36,3 +36,15 @@
 | Correlated Subqueries                    | 71   |
 | Correlated Subqueries (Advanced)         | 64   |
 | Shop Reports (Entity Framework) - .NET 6 | 97   |
+
+<h1>Front-End for .NET Developers:</h1>
+<h2>HTML:</h2>
+
+|                     Task                     | Mark  |
+|:--------------------------------------------:|:-----:|
+|             Introduction to HTML             |  100  |
+| Accessibility fundamentals and HTML semantic |  100  |
+|              Linking and Images              |  100  |
+|              HTML Text elements              | 89.41 |
+|       Structuring Tabular Data               | 95.5  |
+|     HTML Forms and Interactive Elements      | 86.67 |
