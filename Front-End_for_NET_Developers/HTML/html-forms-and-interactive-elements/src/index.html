@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+    <head>
+        <title>NASA Yearlong Simulated Mars Mission application form</title>
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    </head>
+
+    <body>
+        <h1>NASA Yearlong Simulated Mars Mission application form</h1>
+
+        <img src="./images/NASA_logo.png" alt="NASA Logo" width="200px">
+
+        <p>
+            Mars is calling! NASA is seeking applicants for participation as a crew member during the first one-year analog mission in a habitat to simulate life on a distant world.
+        </p>
+
+        <p>
+            As NASA ventures farther into the cosmos, the astronaut experience will change. In preparation for the real-life challenges of future missions to Mars, NASA will study how highly motivated individuals respond under the rigor of a long-duration, ground-based simulation.
+        </p>
+
+        <p>If you are interested, please fill the form bellow:</p>
+
+        <form>
+            <label id="contact-info">
+                <label for="full-name">Full Name:</label>
+                <input type="text" id="full-name" name="full-name" required />
+
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required />
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+            </label>
+
+            <label id="about">
+                <p>
+                    Please, choose your degree:
+                </p>
+
+                <fieldset>
+                    <legend>University Degree</legend>
+
+                    <ul>
+                        <li>
+                            <label for="military-degree">Military</label>
+                            <input type="radio" id="military-degree" name="degree" value="military" required />
+                        </li>
+
+                        <li>
+                            <label for="technical-degree">Technical</label>
+                            <input type="radio" id="technical-degree" name="degree" value="technical" required />
+                        </li>
+
+                        <li>
+                            <label for="student-degree">Student</label>
+                            <input type="radio" id="student-degree" name="degree" value="student" required />
+                        </li>
+                    </ul>
+                </fieldset>
+
+                <p id="bio-p">
+                    <label for="bio">BIO</label>
+                    <textarea id="bio" name="bio"></textarea>
+                </p>
+            </label>
+
+            <label id="participation-details">
+                <h3>Participation details</h3>
+
+                <details>
+                    <summary>More info</summary>
+                    Please, provide information about your preferences. We don't guarantee them, but we will try.
+                </details>
+
+                <p id="uniform-color-p">
+                    <label for="uniform-color">Uniform color</label>
+                    <input type="color" id="uniform-color" name="uniform-color" />
+                </p>
+
+                <p id="preferred-mission-role-p">
+                    <label for="preferred-mission-role">Preferred Role in a mission</label>
+                    <input type="text" id="preferred-mission-role" name="preferred-mission-role" list="role-list" />
+
+                    <datalist id="role-list">
+                        <option value="Pilot"></option>
+                        <option value="Doctor"></option>
+                        <option value="Scientist"></option>
+                        <option value="Experimentator"></option>
+                    </datalist>
+                </p>
+            </label>
+            <section id="agree-and-submit">
+                <input type="checkbox" id="user-agree" name="user-agree" required />
+                <label for="user-agree">I agree on terms and conditions.</label>
+                <button type="submit">Send you data to NASA</button>
+            </section>
+        </form>
+    </body>
+</html>
