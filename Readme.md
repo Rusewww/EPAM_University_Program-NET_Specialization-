@@ -59,3 +59,12 @@
 |  Layout Basics             |  70   |
 |        CSS Flexbox         |  58   |
 |       CSS Animations       | 77.5  |
+
+<h2>JS:</h2>
+
+|             Task             | Mark  |
+|:----------------------------:|:-----:|
+|    Operators and operands    | 91.25 |
+|         Control flow         |  100  |
+|            Loops             | 83.53 |
+| Functions Introduction       | 70.83 |
