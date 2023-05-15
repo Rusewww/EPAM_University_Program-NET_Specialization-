@@ -1,0 +1,122 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+  
+  @keyframes bgcolor2 {
+    0% {background-color: #3393ff;}
+    50% {background-color: #33ff42;}
+    100% {background-color: #30b851;}
+  }
+  
+  @keyframes blockmove {
+    from { top: 0; left: 0;}
+    25% { top: 0; left: 320px;}
+    50% { top: 320px; left: 320px; }
+    75% { top: 320px; left: 0px; }
+    to { top: 0; left: 0; }
+  }
+  
+  @keyframes blockcolormove {
+    from { top: 0; left: 0; background-color: #33fffc;}
+    50% { top: 300px; left: 300px; background-color: #30b851;}
+    to { top: 0; left: 0; background-color: #33fffc;}
+  }
+  
+  @keyframes showhide {
+    from { opacity: 1;}
+    to { opacity: 0; }
+  }
+  
+  @keyframes moveleft {
+    from { left: 0;}
+    to { left: 300px;}
+  }
+  
+  @keyframes blockcolormove {
+    from { background: red; transform: translateX(0);}
+    to { background: green; transform: translateX(100px);}
+  }
+
+.block {
+    width: 200px;
+    height: 75px;
+    border-radius: 10px;
+    margin: 20px;
+    position: relative;
+}
+
+@keyframes bgcolor {
+  from {background-color: #ff5733;}
+  to { background-color: #3393ff; }
+}
+
+.block1 {
+  animation-name: bgcolor;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  }
+  
+  .block2 {
+    background-color: #3393ff;
+    animation-name: bgcolor2;
+    animation-duration: 4s;
+  }
+  
+  .block3 {
+    background: #33ff42;
+    animation-name: blockmove;
+    animation-duration: 6s;
+  }
+  
+  .block4 {
+    background: #33fffc;
+    animation-name: blockcolormove;
+    animation-duration: 5s;
+    animation-delay: 300ms;
+    animation-iteration-count: 5;
+  }
+  
+  .block5 {
+    background: #ff33f6;
+    animation-name: showhide;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+  
+  .block6 {
+    background: #30b851;
+    animation-name: blockmove;
+    animation-duration: 5s;
+    animation-direction: reverse;
+  }
+  
+  .block7 {
+    background: #303cb8;
+    animation-name: blockcolormove;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  .block8 {
+    background: #ec467b;
+    animation-name: moveleft;
+    animation-duration: 5s;
+  }
+  
+  .block9 {
+    background: #e2ec46;
+    animation-name: moveleft;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+  }
+  
+  .block10 {
+    background: #ff1737;
+    animation-name: moveleft;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+  }

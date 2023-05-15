@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.contact::before {
+    content: '';
+    display: inline-block;
+    margin-right: 10px;
+    width: 1rem;
+    height: 1rem;
+    background-size: cover;
+}
+
+/* Header styles */
+.main-quote {
+    margin: 0 0 20px;
+    font-style: italic;
+    font-size: 1.5rem;
+    color: #8C92AC;
+}
+
+
+.main-header {
+    background: linear-gradient(99.9deg, rgba(27,24,31,1) 21.2%, rgba(50,4,89,1) 84.8%);
+    background-color: purple;
+    color: #fff;
+    padding: 2rem;
+}
+
+.avatar-figure {
+    background-image: url('images/stars.jpg');
+    background-color: rgb(47, 47, 91);
+    background-size: cover;
+    margin: 0;
+    padding: 1rem;
+}
+
+.avatar-figure img {
+    border: 3px solid #fff;
+}
+
+.contacts {
+    max-width: 50%;
+    padding: 1rem;
+    border: 3px solid #fff;
+    color: #fff;
+}
+
+.contacts li {
+    list-style: none;
+    display: inline-block;
+}
+
+a.contact:visited {
+    color: rgb(128, 128, 128);
+}
+
+a.contact:active {
+    color: rgb(151, 154, 170);
+}
+
+.contact-phone::before {
+    content: "";
+    background: url('images/phone-call.svg');
+}
+
+.contact-inst::before {
+    content: "";
+    background: url('images/instagram-logo.svg');
+}
+
+.contact-twitter::before {
+    content: "";
+    background: url('images/twitter.svg');
+}
+
+
+h1 {
+    padding-bottom: 30px;
+    border-bottom: 3px solid rgb(112, 128, 144);
+}
+
+
+/* Sections and Section Summary styles */
+section {
+    padding: 2rem;
+}
+
+.summary {
+    padding: 2rem;
+    text-shadow: 1px 1px 2px pink;
+}
+
+.space {
+    background: url('images/rocket_big.png') no-repeat center, url('images/space.jpg') no-repeat bottom center;
+    float: left;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+
+/* Work experience section */
+.work-experience {
+    margin-top: 2rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+}
+
+.work-experience-years-row {
+    width: 15%;
+}
+
+.work-experience-job-title-row {
+    width: 20%;
+}
+
+.work-experience-comment-row {
+    width: 65%;
+}
+
+th {
+    letter-spacing: 2px;
+    padding: 20px;
+    text-align: left;
+}
+
+td {
+    letter-spacing: 1px;
+    padding: 20px;
+    text-align: left;
+}
+
+tfoot th {
+    text-align: right;
+}
+
+thead,
+tfoot {
+    background-image: url('images/leopardskin.jpg');
+    color: #fff;
+    text-shadow: 1px 1px 1px black;
+}
+
+.main-footer {
+    background: purple linear-gradient(99.9deg, rgba(27, 24, 31, 1) 21.2%, rgba(50, 4, 89, 1) 84.8%);
+    color: #fff;
+    padding: 2rem;
+}
+
+caption {
+    padding: 20px;
+    text-align: right;
+    font-style: italic;
+    color: #666;
+    letter-spacing: 1px;
+    caption-side: bottom;
+}
+

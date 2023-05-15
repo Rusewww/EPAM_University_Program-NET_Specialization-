@@ -48,3 +48,14 @@
 |              HTML Text elements              | 89.41 |
 |       Structuring Tabular Data               | 95.5  |
 |     HTML Forms and Interactive Elements      | 86.67 |
+
+<h2>CSS:</h2>
+
+|            Task            | Mark  |
+|:--------------------------:|:-----:|
+| Introduction to CSS basics | 95.71 |
+|       CSS Selectors        | 97.1  |
+|     Usefull CSS Rules      | 77.5  |
+|  Layout Basics             |  70   |
+|        CSS Flexbox         |  58   |
+|       CSS Animations       | 77.5  |
